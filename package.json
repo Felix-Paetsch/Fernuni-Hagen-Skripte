@@ -1,0 +1,14 @@
+{
+  "name": "la-korrektur-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "tsx src/collect.ts",
+    "split": "tsx src/split.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}
